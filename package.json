@@ -1,0 +1,27 @@
+{
+    "name": "dotpak.es",
+    "version": "1.0.0",
+    "description": "doppak.es Web site template",
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lokopak/dotpak.es.git"
+    },
+    "keywords": [
+        "freelance",
+        "web",
+        "portfolio"
+    ],
+    "author": "dotpak",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lokopak/dotpak.es/issues"
+    },
+    "homepage": "https://github.com/lokopak/dotpak.es#readme",
+    "devDependencies": {
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.1"
+    }
+}
