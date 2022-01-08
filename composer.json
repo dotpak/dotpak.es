@@ -1,0 +1,15 @@
+{
+    "name": "dotpak/dotpak.es",
+    "description": "Dotpak.es Web site source code",
+    "type": "project",
+    "authors": [
+        {
+            "name": "dotpak",
+            "email": "pakpil@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laminas/laminas-mvc-skeleton": "^1.2"
+    }
+}
