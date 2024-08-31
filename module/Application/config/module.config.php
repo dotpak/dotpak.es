@@ -4,12 +4,15 @@ declare(strict_types=1);
 
 namespace Application;
 
+use Laminas\I18n\Translator\TranslatorInterface;
+use Laminas\Mvc\I18n\Router\TranslatorAwareTreeRouteStack;
 use Laminas\Router\Http\Literal;
 use Laminas\Router\Http\Segment;
 use Laminas\ServiceManager\Factory\InvokableFactory;
 
 return [
     'router' => [
+        'router_class' => TranslatorAwareTreeRouteStack::class,
         'routes' => [
             'home' => [
                 'type'    => Literal::class,
@@ -24,7 +27,7 @@ return [
             'application' => [
                 'type'    => Segment::class,
                 'options' => [
-                    'route'    => '/application[/:action]',
+                    'route'    => '/{tr_application}[/:action]',
                     'defaults' => [
                         'controller' => Controller\IndexController::class,
                         'action'     => 'index',
@@ -37,6 +40,11 @@ return [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
         ],
+    ],
+    'service_manager' => [
+        'aliases' => [
+            'translator' => TranslatorInterface::class,
+        ]
     ],
     'view_manager' => [
         'display_not_found_reason' => true,
@@ -52,6 +60,16 @@ return [
         ],
         'template_path_stack' => [
             __DIR__ . '/../view',
+        ],
+    ],
+    'translator' => [
+        'locale' => 'es_ES',
+        'translation_file_patterns' => [
+            [
+                'type'     => 'phparray',
+                'base_dir' => __DIR__ . '/../language',
+                'pattern'  => '%s.php',
+            ],
         ],
     ],
 ];

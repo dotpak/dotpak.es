@@ -1,0 +1,30 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 292 192" style="enable-background:new 0 0 292 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#008037;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none; stroke:#008037; stroke-width:4;}
+	.st3{fill:none; stroke:#008037; stroke-width:15;}
+</style>
+
+<path id="B_0_" class="st2" d="M12.0,2.0 L280.0,2.0 A10,10 0 0 1 290,12 L290,180 A10,10 0 0 1 280,190 L12,190 A10,10 0 0 1 2,180 L2,12 A10,10 0 0 1 12,2" />
+
+<circle id="D_3_" class="st0" cx="26.0" cy="121.0" r="20.0"/>
+
+<circle id="P_1_" class="st3" cx="92.0" cy="96.0" r="37.5"/>
+<path id="P_5_" class="st0" d="M47.0,96.5 L47.0,176.5 L62.0,176.5 L62.0,96.5 Z"/>
+<circle id="P_4_" class="st0" cx="54.5" cy="176.5" r="7.5"/>
+
+<circle id="A_1_" class="st3" cx="183.0" cy="96.0" r="37.5"/>
+<path id="A_5_" class="st0" d="M228.0,96.0 L228.0,133.5 L213.0,133.5 L213.0,96.0 Z"/>
+<circle id="A_4_" class="st0" cx="220.5" cy="133.5" r="7.5"/>
+
+<circle id="K_1_" class="st0" cx="237.5" cy="28.5" r="7.5"/>
+<path id="K_2_" class="st0" d="M230.0,28.5 L230.0,133.5 L245.0,133.5 L245.0,28.5 Z"/>
+<circle id="K_3_" class="st0" cx="237.5" cy="133.5" r="7.5"/>
+<path id="K_4_" class="st0" d="M245.0,96.0 L284.8,128.2 L274.2,138.8 L234.4,106.6 Z"/>
+<circle id="K_5_" class="st0" cx="279.5" cy="133.5" r="7.5"/>
+<path id="K_6_" class="st0" d="M245.0,96.0 L281.05,60.05 L270.45,49.55 L234.4,85.4 Z"/>
+<circle id="K_7_" class="st0" cx="275.75" cy="54.75" r="7.5"/>
+
+</svg>
